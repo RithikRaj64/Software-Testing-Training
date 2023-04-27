@@ -22,6 +22,14 @@
   <dependencies>
 
     <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.1</version>
+      <scope>test</scope>
+    </dependency>
+
+
+    <dependency>
       <groupId>io.github.bonigarcia</groupId>
       <artifactId>webdrivermanager</artifactId>
       <version>5.3.2</version>
@@ -39,6 +47,8 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+
   </dependencies>
 
   <build>
