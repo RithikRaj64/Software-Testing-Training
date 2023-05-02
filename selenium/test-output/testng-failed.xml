@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="methods" name="Failed suite [Suite]">
-  <test thread-count="5" parallel="methods" name="Test(failed)">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.rithik.D9.D9T5_Listener1"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.rithik.D9.D9T2_3">
+      <class name="com.rithik.D9.D9T5">
         <methods>
-          <include name="test3"/>
-          <include name="test2"/>
-          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- com.rithik.D9.D9T2_3 -->
+      </class> <!-- com.rithik.D9.D9T5 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

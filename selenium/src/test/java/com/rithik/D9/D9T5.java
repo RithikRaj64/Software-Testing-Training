@@ -41,6 +41,7 @@ public class D9T5 {
     String actualURL = driver.getCurrentUrl();
 
     Assert.assertEquals(expectedURL, actualURL);
+
   }
 
   @BeforeMethod
