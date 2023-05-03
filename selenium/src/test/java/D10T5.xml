@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <listeners>
+    <listener class-name="com.rithik.D10.D10T5_Listener" />
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.rithik.D10.D10T5" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

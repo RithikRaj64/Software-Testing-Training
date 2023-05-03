@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rithik.D7.D7T5">
+      <class name="com.rithik.D10.D10T4">
         <methods>
-          <include name="test2"/>
-          <include name="test3"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="test1"/>
+          <include name="f"/>
+          <include name="extent"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.rithik.D7.D7T5 -->
+      </class> <!-- com.rithik.D10.D10T4 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

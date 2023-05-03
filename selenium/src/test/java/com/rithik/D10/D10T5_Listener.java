@@ -1,10 +1,10 @@
-package com.rithik.D9;
+package com.rithik.D10;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class D9T5_Listener1 implements ITestListener {
+public class D10T5_Listener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {

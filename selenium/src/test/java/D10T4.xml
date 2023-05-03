@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <parameter name="browser" value="edge"></parameter>
+  <test name="Test">
+    <classes>
+      <class name="com.rithik.D10.D10T4" />
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

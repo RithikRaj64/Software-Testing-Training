@@ -61,7 +61,7 @@ public class D7T3 {
     driver.manage().window().maximize();
 
     // Wait for 2 seconds
-    Thread.sleep(2000);
+    Thread.sleep(10000);
   }
 
   @AfterMethod
