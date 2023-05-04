@@ -8,7 +8,6 @@
           <include name="f"/>
           <include name="extent"/>
           <include name="afterTest"/>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.rithik.D10.D10T4 -->

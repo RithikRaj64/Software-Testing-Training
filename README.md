@@ -10,3 +10,7 @@ Path to those files
 
 - selenium/src/main/java/com/rithik/
 - selenium/src/test/java/com/rithik/
+
+Path to CC1 files
+
+- selenium/src/test/java/com/rithik/cc1
